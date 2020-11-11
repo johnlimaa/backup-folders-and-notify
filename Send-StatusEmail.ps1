@@ -79,10 +79,12 @@ function Send-StatusEmail {
 </html>
 "@
         $CreatingEmail = @{
+	    # Altere o e-mail utilizado para enviar a notificacao
             From = "mail@mail.com"
             To = $To
             Body = $Body                 
             Subject = $Subject
+	    # Altere o SMTP Server
             SmtpServer = "mail-server"
             Encoding = "UTF8"
         }

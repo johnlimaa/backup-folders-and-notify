@@ -1,24 +1,28 @@
 
-# Backup e notificação
+# Backup e notificaÃ§Ã£o
 
 ### Meu objetivo
 
-Criar uma automatização para realizar o backup de um diretório em rede.
+Criar uma automatizaÃ§Ã£o para realizar o backup de um diretÃ³rio em rede.
 
 ### O problema 
 
-Um diretório em rede era usado para transferência de arquivos entre colaboradores, porém era necessário fazer o backup dos arquivos a cada semana e deixar apenas os arquivos criados no dia da limpeza.
+Um diretÃ³rio em rede era usado para transferÃªncia de arquivos entre colaboradores, porÃ©m era necessÃ¡rio fazer o backup dos arquivos a cada semana e deixar apenas os arquivos criados no dia da limpeza.
 
 
-### Minha solução
+### Minha soluÃ§Ã£o
 
-Um script que acessa este diretório, compara a data de criação das pastas e arquivos e realiza o backup armazenando em outro local. Os arquivos que estão com a data de criação anterior ao dia de execução da tarefa são removidos após o backup. 
+Um script que acessa este diretÃ³rio, compara a data de criaÃ§Ã£o das pastas e arquivos e realiza o backup armazenando em outro local. Os arquivos que estÃ£o com a data de criaÃ§Ã£o anterior ao dia de execuÃ§Ã£o da tarefa sÃ£o removidos apÃ³s o backup. 
 
-Esta tarefa gera um arquivo de log e notifica o executor sobre a conclusão via e-mail.
+Esta tarefa gera um arquivo de log e notifica o executor sobre a conclusÃ£o via e-mail.
 
-Para utilizar de forma automática, utilizei o Agendador de Tarefas do Windows.
+![Exemplo do email](https://github.com/johnlimaa/powershell-utilities/blob/master/backup-and-notify/img/mail.png?raw=true)
 
-1. Inicie uma sessão do Powershell
+Para utilizar de forma automÃ¡tica, utilizei o Agendador de Tarefas do Windows.
+
+![Campos agendador de tarefas](https://github.com/johnlimaa/powershell-utilities/blob/master/backup-and-notify/img/windows-task.png?raw=true)
+
+1. Inicie uma sessÃ£o do Powershell
 
 `C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe`
 
@@ -28,6 +32,6 @@ Para utilizar de forma automática, utilizei o Agendador de Tarefas do Windows.
 
 3. Agende ou execute a tarefa
 
-> **Observação**
+> **ObservaÃ§Ã£o**
 > Os scripts contidos nesta pasta devem ser armazenados juntos.
 

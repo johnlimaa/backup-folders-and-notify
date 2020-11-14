@@ -1,14 +1,9 @@
 
 # Backup e notificação
 
-### Meu objetivo
+### Meu desafio
 
-Criar uma automatização para realizar o backup de um diretório em rede.
-
-### O problema 
-
-Um diretório em rede era usado para transferência de arquivos entre colaboradores, porém era necessário fazer o backup dos arquivos a cada semana e deixar apenas os arquivos criados no dia da limpeza.
-
+Criar uma automatização para realizar o backup de um diretório em rede que era usado para transferência de arquivos entre colaboradores, porém era necessário fazer o backup dos arquivos a cada semana e deixar apenas os arquivos criados no dia da limpeza.
 
 ### Minha solução
 

@@ -56,20 +56,22 @@ function Send-StatusEmail {
             <title>Email sent via Powershell's Script</title>
         </head>
     <body>
+
         <div style="
             display: block;
             border: 1px solid #4d4d4d; 
             margin: 0 auto;
             text-align: center;">
-                
+            
             <h2>Automated Email System</h2>
-                
+            
             <div>
                 <p>$Body</p>
                 $StatusMessage
             </div>
-                <span style="margin-top: 40px;"> IT Departament </span>
+            <span style="margin-top: 40px;"> IT Departament </span>
         </div>
+
     </body>
 </html>
 "@
